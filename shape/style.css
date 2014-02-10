@@ -78,7 +78,6 @@ table {
    position:absolute;
    top:60px;
    left:89px;}
-.metal4{}
 
 .bottom{
    height: 40px; 
@@ -301,7 +300,7 @@ table {
 .bottle{position:absolute;
   top:250px;}
 .bottle1{
-  border-bottom: 300px solid red;
+  border-bottom: 300px solid #7FFFD4;
   border-left: 23px solid transparent;
   border-right: 23px solid transparent;
   height: 0px;
@@ -320,7 +319,7 @@ table {
         left:50px;
         top:10px;}
 .bottle3{
-  border-bottom: 272px solid red;
+  border-bottom: 272px solid #7FFFD4;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   height: 0px;
@@ -329,7 +328,7 @@ table {
         left:57px;
         top:15px;}
 .bottle4{
-  border-bottom: 40px solid red;
+  border-bottom: 40px solid #7FFFD4;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
   height: 0;
@@ -340,7 +339,7 @@ table {
 }
 .bottle5{width: 70px;
   height: 30px;
-  background: red;
+  background: #7FFFD4;
         position:absolute;
         top:-73px;
         left:103px;
@@ -348,7 +347,7 @@ table {
 
 .bottle6{width: 40px;
   height: 10px;
-  background: red;
+  background: #7FFFD4;
         position:absolute;
         top:-86px;
         left:118px;
@@ -356,26 +355,26 @@ table {
 
 .bottle7{width: 20px;
   height: 40px;
-  background: red;
+  background: #7FFFD4;
         position:absolute;
         top:-129px;
         left:128px;
 }
 .bottle8{width: 60px;
   height: 20px;
-  background: red;
+  background: #7FFFD4;
         position:absolute;
         top:-153px;
         left:106px;}
 .bottle9{width:100px;
   height: 10px;
-  background: red;
+  background: #7FFFD4;
         position:absolute;
         top:-143px;
         left:30px;}
 .bottle10{width:13px;
   height: 16px;
-  background: red;
+  background: #7FFFD4;
         position:absolute;
         top:-143px;
         left:30px;}
@@ -392,7 +391,7 @@ table {
         left:200px;}
 .dryer2{width: 90px;
   height: 90px;
-  background-color: white;
+  background-color: #696969;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
@@ -431,12 +430,41 @@ table {
         border-radius: 0px 0px 15px 5px;
         }
 
-.dryer7{width: 60px;
-  height: 60px;
-  background-color: red;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
+.dryer7{width: 48px;
+  height: 85px;
+  background: #696969;
+        position:absolute;
+        top:150px;
+        left:242px;
+        -webkit-transform:rotate(-10deg);
+        border-radius: 0px 0px 15px 5px;
+        }
+.dryer8{width: 10px;
+  height: 85px;
+  background: black;
+        position:absolute;
+        top:80px;
+        left:230px;
+        -webkit-transform:rotate(-60deg);}
+.dryer9{width: 10px;
+  height: 93px;
+  background: black;
         position:absolute;
         top:55px;
-        left:305px;}
+        left:243px;
+        -webkit-transform:rotate(-60deg);}
+.dryer10{width: 10px;
+  height: 85px;
+  background: black;
+        position:absolute;
+        top:39px;
+        left:257px;
+        -webkit-transform:rotate(-60deg);}
+.dryer11{width: 20px;
+  height: 10px;
+  background: red;
+        position:absolute;
+        top:158px;
+        left:214px;
+        -webkit-transform:rotate(79deg);
+        border-radius: 0px 0px 5px 5px;
