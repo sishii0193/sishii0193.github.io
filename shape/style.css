@@ -383,7 +383,7 @@ table {
 .dryer1{
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: black;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
@@ -392,7 +392,7 @@ table {
         left:200px;}
 .dryer2{width: 90px;
   height: 90px;
-  background-color: blue;
+  background-color: white;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
@@ -400,7 +400,7 @@ table {
         top:55px;
         left:205px;}
 .dryer3{
-  border-bottom:85px solid red;
+  border-bottom:85px solid black;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   height: 0;
@@ -411,7 +411,7 @@ table {
         left:150px;}
 
 .dryer4{
-  border-bottom: 30px solid red;
+  border-bottom: 30px solid black;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   height: 0;
@@ -423,11 +423,20 @@ table {
 }
 .dryer5{width: 58px;
   height: 140px;
-  background: red;
+  background: black;
         position:absolute;
         top:100px;
         left:233px;
         -webkit-transform:rotate(-10deg);
         border-radius: 0px 0px 15px 5px;
         }
-</style>
+
+.dryer7{width: 60px;
+  height: 60px;
+  background-color: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+        position:absolute;
+        top:55px;
+        left:305px;}
