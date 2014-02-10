@@ -55,26 +55,26 @@ table {
 .head {
    width: 80px;  
    height: 500px;
-   background-color:red;
+   background-color:black;
    position:absolute;
    top:38px;}
 .metal1{
    width: 80px;  
    height: 30px;
-   background-color:blue;
+   background-color:gray;
    position:absolute;
    top:60px;}
 .metal2{
    width: 80px;  
    height: 6px;
-   background-color:blue;
+   background-color:gray;
    position:absolute;
    top:60px;
    left:15px;}
 .metal3{
    width:6px;  
    height:150px;
-   background-color:blue;
+   background-color:gray;
    position:absolute;
    top:60px;
    left:89px;}
@@ -83,7 +83,7 @@ table {
 .bottom{
    height: 40px; 
    width: 1px;
-   border-bottom: 100px solid blue;
+   border-bottom: 100px solid gray;
    border-left: 40px solid transparent;
    border-right: 40px solid transparent;
    -webkit-transform:rotate(180deg);
@@ -98,14 +98,14 @@ table {
    left:40px;}
 .top{width:80px;  
    height:50px;
-   background-color:blue;
+   background-color:black;
    border-radius: 25px 25px 0px 0px;
    position:absolute;
    top:-70px;
    }
 .top2{width:90px;  
    height:15px;
-   background-color:green;
+   background-color:gray;
    -moz-border-radius:    10px;
    -webkit-border-radius: 10px;
    border-radius:         10px;
@@ -115,14 +115,14 @@ table {
    }
 .top3{width:80px;  
    height:15px;
-   background-color:orange;
+   background-color:black;
    position:absolute;
    top:-1px; 
    
    }
 .top4{width:50px;  
    height:20px;
-   background-color:blue;
+   background-color:gray;
    position:absolute;
    top:16px;
    left:15px}
