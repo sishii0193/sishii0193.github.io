@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>   
+<meta charset="utf-8" />   
+<title>homework</title>   
+<link href="style.css" rel="stylesheet" media="all" /> 
+<style>
+  .bird{position:absolute;
+    left:90px;}
+  .body1{
+    position:absolute;
+    height:200px;width:200px;
+    background-color:red;
+    -webkit-border-radius:50%
+      ;}
+  .body2{position:absolute;
+    top:-20px;
+    left:50px;
+    height:70px;width:80px;
+    -webkit-border-radius:50px;
+    background-color:white;}
+  .body3{position:absolute;
+    top:80px;
+    left:35px;
+    height:40px;width:40px;
+    -webkit-border-radius:50px;
+    background-color:white;}
+   .body4{position:absolute;
+    top:80px;
+    left:94px;
+    height:40px;width:40px;
+    -webkit-border-radius:50px;
+    background-color:white;}
+  .body5{
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom-color: yellow;
+  position: relative;
+  top: 100px;
+    left:65px;
+}
+.body5:after {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 15px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top-color: yellow;
+}
+   .wing1{ position:absolute;
+    left:170px;
+    top:-10px;
+    height:60px;width:100px;
+    background-color:red;
+    -webkit-border-radius:50%;
+    -webkit-transform:rotate(-20deg)
+  }
+    .wing2{ position:absolute;
+    left:165px;
+    top:20px;
+    height:40px;
+    width:80px;
+    background-color:red;
+    -webkit-border-radius:50%;
+    -webkit-transform:rotate(15deg)
+  }
+  .wing4{ position:absolute;
+    left:-68px;
+    top:-1px;
+    height:60px;width:100px;
+    background-color:red;
+    -webkit-border-radius:50%;
+    -webkit-transform:rotate(180deg)
+  }
+    .wing5{ position:absolute;
+    left:-35px;
+    top:35px;
+    height:40px;
+    width:75px;
+    background-color:red;
+    -webkit-border-radius:50%;
+    -webkit-transform:rotate(155deg)
+  }
+  .bird .wing{
+    position:absolute;
+    top:80px;
+    left:-px;
+    -webkit-animation:'flutter1' 0.2s linear;
+    -webkit-animation-iteration-count: infinite;}
+  .bird .twowing{
+    position:absolute;
+    top:65px;
+    left:10px;
+    -webkit-animation:'flutter2' 0.2s linear;
+    -webkit-animation-iteration-count: infinite;}
+  .bird{-webkit-animation:move 8s linear alternate;}
+  @-webkit-keyframes flutter1 {
+    0% { -webkit-transform:rotate(0deg)}
+50% { -webkit-transform:rotate(-10deg)}
+100% { -webkit-transform:rotate(0deg)}
+}
+  
+  @-webkit-keyframes flutter2 {
+0% { -webkit-transform:rotate(0deg)}
+50% { -webkit-transform:rotate(50deg)}
+    100% { -webkit-transform:rotate(0deg)}}
+  @-webkit-keyframes move
+{
+0%   {left:5000px; top:0px;}
+100%  {left:-3000px; top:0px;}
+
+}
+</style>
+</head>
+
+<div class="bird">
+<div class="wing">
+<div class="wing1"></div>
+<div class="wing2"></div>
+<div class="wing3"></div>
+  </div>
+  <div class="twowing">
+<div class="wing4"></div>
+  <div class="wing5"></div>
+  <div class="wing6"></div>
+</div>
+  <div class="body1"></div>
+<div class="body2"></div>
+<div class="body3"></div>
+<div class="body4"></div>
+<div class="body5"></div>
+<div class="eye"></div>
+</div>
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>   
+<meta charset="utf-8" />   
+<title>homework</title>   
+<link href="style.css" rel="stylesheet" media="all" /> 
+<style>.pencil{position:absolute;
+	top:90px;
+        left:100px;}
+.head {
+   width: 80px;  
+   height: 500px;
+   background-color:black;
+   position:absolute;
+   top:38px;}
+.metal1{
+   width: 80px;  
+   height: 30px;
+   background-color:gray;
+   position:absolute;
+   top:60px;}
+.metal2{
+   width: 80px;  
+   height: 6px;
+   background-color:gray;
+   position:absolute;
+   top:60px;
+   left:15px;}
+.metal3{
+   width:6px;  
+   height:150px;
+   background-color:gray;
+   position:absolute;
+   top:60px;
+   left:89px;}
+
+.bottom{
+   height: 40px; 
+   width: 1px;
+   border-bottom: 100px solid gray;
+   border-left: 40px solid transparent;
+   border-right: 40px solid transparent;
+   -webkit-transform:rotate(180deg);
+   position:absolute;
+   top:540px;
+   }
+.bottom2{width:2px;  
+   height:10px;
+   background-color:black;
+   position:absolute;
+   top:643px;
+   left:40px;}
+.top{width:80px;  
+   height:50px;
+   background-color:black;
+   border-radius: 25px 25px 0px 0px;
+   position:absolute;
+   top:-70px;
+   }
+.top2{width:90px;  
+   height:15px;
+   background-color:gray;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+   position:absolute;
+   top:-18px;  
+   left:-4px;
+   }
+.top3{width:80px;  
+   height:15px;
+   background-color:black;
+   position:absolute;
+   top:-1px; 
+   
+   }
+.top4{width:50px;  
+   height:20px;
+   background-color:gray;
+   position:absolute;
+   top:16px;
+   left:15px}
+}
+
+@-webkit-keyframes mymove 
+{
+0%{left:0px; top:0px;}
+50%{left:0px; top:100px;}
+100%{left:0px; top:0px;}
+}
+
+
+.eraser{-webkit-animation:mymove 10s ease-out forwards;}
+</style>
+</head>
+
+<div class='pencil'>
+<div class='main'>
+<div class='head'></div>
+<div class='metal1'></div>
+<div class='metal2'></div>
+<div class='metal3'></div>
+<div class='metal4'></div>
+<div class='bottom'></div>
+<div class='bottom2'></div>
+</div>
+<div class='eraser'>
+<div class='top'></div>
+<div class='top2'></div>
+<div class='top3'></div>
+<div class='top4'></div>
+</div>
+<div class='mouth1'></div>
+</div>
+
