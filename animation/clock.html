@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>   
+<meta charset="utf-8" />   
+<title>homework</title>   
+<link href="style.css" rel="stylesheet" media="all" /> 
+<style>
+#clock {
+	position: relative;
+	width: 120px;
+	height: 120px;
+	background: #D8D8D8;
+	margin: 50px auto 0;
+	border: 10px solid gray;
+	-webkit-border-radius: 50%;
+}
+
+}
+
+#clock:before {
+	content: '';
+	position: absolute;
+	z-index: 2;
+	width: 8px;
+	height: 8px;
+	background: #333;
+	left: 50%;
+	top: 50%;
+	margin: -4px 0 0 -4px;
+	-webkit-border-radius: 50%;
+}
+
+/* Hands */
+#clock span.hand {
+	background: #555;
+	position: absolute;
+	left: 50%;
+	-webkit-animation: rotate 60s infinite linear;
+	-webkit-transform-origin: left bottom;
+	
+}
+
+#clock span.hand.second {
+	height: 50px;
+	width: 2px;	
+	margin-left: -1px;
+	top: 10px;
+}
+
+#clock span.hand.minute {
+	height: 40px;
+	width: 4px;	
+	margin-left: -2px;
+	top: 20px;
+	-webkit-animation-duration: 3600s;
+}
+
+#clock span.hand.hour {
+	height: 30px;
+	width: 6px;	
+	margin-left: -3px;
+	top: 30px;
+	-webkit-animation-duration: 84600s;
+}
+
+  .bell1{height:40px;
+     width:70px;
+    position:absolute;
+    left:-35px;
+    top:-32px;
+     -webkit-border-radius: 90px 90px 0 0;
+    -webkit-transform:rotate(-40deg);
+     background:gray;
+}
+   .bell2{height:40px;
+     width:70px;
+    position:absolute;
+    left:85px;
+    top:-32px;
+     -webkit-border-radius: 90px 90px 0 0;
+    -webkit-transform:rotate(40deg);
+     background:gray;
+}
+     .bell3{height:30px;
+     width:10px;
+    position:absolute;
+    left:55px;
+    top:-32px;
+     background:gray;
+}
+     .bell4{height:10px;
+     width:20px;
+    position:absolute;
+    left:50px;
+    top:-40px;
+     -webkit-border-radius: 90px 90px 0 0;
+
+     background:gray;
+}
+       .leg1{height:30px;
+     width:10px;
+    position:absolute;
+    left:5px;
+    top:110px;
+     background:gray;
+     -webkit-transform:rotate(40deg);
+}
+   .leg2{height:30px;
+     width:10px;
+    position:absolute;
+    left:102px;
+    top:110px;
+     background:gray;
+     -webkit-transform:rotate(-40deg);
+}
+@-webkit-keyframes rotate {
+	0% { -webkit-transform: rotate(0deg);}
+	100% { -webkit-transform: rotate(360deg);}
+}	
+
+
+
+
+</style>
+<div id="clock">
+	<span class="hand second"></span>
+	<span class="hand minute"></span>
+	<span class="hand hour"></span>
+  	<div class="bell1"></div>
+	<div class="bell2"></div>
+	<div class="bell3"></div>
+  	<div class="bell4"></div>
+	<div class="leg1"></div>
+	<div class="leg2"></div>
+</div>
