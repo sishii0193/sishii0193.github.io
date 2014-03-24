@@ -212,7 +212,8 @@ width:125px;
 			height:40px;}
 article{position:relative;
 		bottom:550px;
-		left:500px;}
+		left:500px;
+		height:600px;}
 article h1{font-size:35px;
 				 	width: 300px;
 							padding-bottom:10px;
@@ -242,10 +243,12 @@ article h4{font-size:25px;
 			width: 200px;
 			height:15px;
 			letter-spacing: 2px;
-			margin-left:50px;
+			margin-top:50px;
+			margin-left:40px;
 			padding-top:10px;
 			padding-left:10px;
 			padding-right:10px;
+			padding-bottom:20px;
 			font-family:helvetica;
 			font-weight:bold;
 			text-align:center;
