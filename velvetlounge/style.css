@@ -63,6 +63,18 @@ li{display:inline-block;
 margin:0 auto;
 }
 
+#about{position:relative;
+			top:670px;}
+#about p{position:absolute;
+			top:700px;
+			left:100px;}
+#collection{position:relative;
+			top:1600px;}
+#store{position:relative;
+			top:1750px;}
+#contact{position:relative;
+			top:2500px;}
+
 section h1{text-align:center;
 	margin-bottom:30px;
 	font-size: 30px;
@@ -78,7 +90,8 @@ section h3{text-align:center;}
 
 #header{padding-bottom:100px;
 		text-align:center;
-		padding-top:10px;}
+		padding-top:10px;
+		position:relative;}
 #logo{padding-bottom:10px;}
 
 #yo nav {border-top:1px solid black;
@@ -94,16 +107,21 @@ section h3{text-align:center;}
 
 #yo nav ul li a{text-decoration:none;}
 
-#items{padding-left:50px;}
+.items{position:relative;
+		top:30px;
+		left:60px;}
 
-#items ul{padding-left:10px;
+.items ul{padding-left:20px;
 			margin:0 auto;}
-#items li img{width:160px;
+.items li{margin-right:15px;}
+.items li img{width:160px;
 			  height:160px;
 			  margin-left:0px;
 			  margin-right:60px;
 			  padding-bottom:40px;}
-#items img:hover{}
+
+#ring1{position:absolute;
+	left:600px;}
 #icons{margin-left:100px;}
 
 
@@ -111,22 +129,42 @@ section h3{text-align:center;}
 			height:100px;
 			padding-left:90px;
 		}
+#size{padding-bottom:50px;}
 
 #page1{margin-bottom:120px;}
+#man{width:960px;
+	 height:550px;}
+.intro{ position:relative; top:-50px; width:960px;}
 
-#man{width:960px;}
-#front img{width:960px;
-			padding-top:35px;}
+.intro img{width:960px;
+			padding-top:35px;
+		position:absolute; left:0; top:0;}
+
+.front img{width:960px;}
+.front{ position:relative; width:960px;}
+
+.front img{width:960px;
+			padding-top:35px;
+		position:absolute; left:0; top:0;}
 #arrow1{width:50px;
 		height:50px;
-		margin:0 auto;}
+		margin:0 auto;
+		position:absolute; left:450px; top:800px;}
 #arrow2 {width:50px;
 		height:50px;
-		margin:0 auto;}
+		margin:0 auto;
+		position:absolute;
+	left:350px; top:150px;}
 #arrow3{width:50px;
-		height:50px;}
+		height:50px;
+		margin:0 auto;
+		position:absolute;
+	left:450px; top:1550px;}
 #arrow4{width:50px;
-		height:50px;}
+		height:50px;
+		margin:0 auto;
+	position:absolute;
+	left:450px; top:670px;}
 .title{border-bottom:1px solid black;
 		margin-bottom:87px;
 		}
@@ -143,12 +181,15 @@ img#main {
 #haha{
 	display: none;
 	margin: 0 10px;
+	position:relative;
+	width:450px;
 }
 #haha a {
 	border: 1px #ccc solid;
 	padding: 2px 2px 0;
 	display: block;
-	float: left;
+	float:left;
+width:125px;
 	margin: 2px;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;	
@@ -169,27 +210,57 @@ img#main {
 
 #main img{width:40px;
 			height:40px;}
+article{position:relative;
+		bottom:550px;
+		left:500px;}
 article h1{font-size:35px;
 				 	width: 300px;
-				float: right;
-				padding-bottom:10px;}
-article h2{font-size:35px;
+							padding-bottom:10px;
+						}
+article h2{font-size:25px;
 				 	width: 300px;
-				float: right;}
-article p{font-size:18px;
+				 	padding-bottom:15px;
+				 	border-bottom:1px solid black;
+				 	margin-bottom:5px;
+}
+article p{font-size:15px;
 				 	width: 300px;
-				float: right;}
-article h3{font-size:25px;
+				 	padding-top:30px;
+				 	padding-bottom:15px;
+				 	line-height:25px;
+}
+article h3{font-size:15px;
 				 	width: 300px;
-				float: right;}
+				 	padding-top:;
+				 	padding-bottom:10px;
+}
 article h3{font-size:25px;
 			width: 300px;
-			float: right;}
-			
-aside.preview {
-	width: 500px;
+			margin-top:20px;
+}
+article h4{font-size:25px;
+			width: 200px;
+			height:15px;
+			letter-spacing: 2px;
+			margin-left:50px;
+			padding-top:10px;
+			padding-left:10px;
+			padding-right:10px;
+			font-family:helvetica;
+			font-weight:bold;
+			text-align:center;
+			color:white;
+			background-color:#B00000 ;
+}
+select{padding-bottom:10px;
+		}
+			aside.preview {
+	width: 340px;
 	float: left;
 	clear: none;
 }
-#popup{position:relative;
-		margin:0 auto;}
+
+.preview{position:relative;
+		left:50px;}
+#map{position:absolute;
+	 left:150px;}

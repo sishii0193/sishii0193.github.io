@@ -4,6 +4,9 @@
     <title>Velvet Lounge</title>
     <link rel="stylesheet" type='text/css' href="style.css" />
 
+<script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+<script type="text/javascript">
+</script>
 </head>
 
 <body>
@@ -13,7 +16,7 @@
 	</div>
     <div id="yo">
     <nav>
-	<ul class="menu">
+	<ul id="menu">
 		<li><a href="#about">ABOUT</a></li>
 		<li><a href="#collection">COLLECTION</a></li>
 		<li><a href="#store">STORE</a></li>
@@ -22,30 +25,37 @@
 
 </nav>
 </div>
-<div id="front">
+<div class="front">
  <img src="images/back.jpg" alt="back">
+  <img src="images/back15.jpg" alt="back1">
+  <img src="images/back2.jpg" alt="back2">
+    <img src="images/back3.jpg" alt="back3">
 </div>
 
  <a href="#about"><img id="arrow1" src="images/arrow.png" alt="arrw"></a>
 
 </div>
 
-<section id="page1">
-  <a id="about"></a>
+<section id="about">
   <div class="title">
   <h1>
     <span>ABOUT</span>
 </h1>
 </div>
+<div class="intro">
     <img id="man" src="images/men1.jpg" alt="man">
+      <img id="man" src="images/men15.jpg" alt="man">
+     <img id="man" src="images/men2.jpg" alt="man">
+      <img id="man" src="images/men3.jpg" alt="man">
+    </div>
+
   <p>Established in 2004 by director, Masaki Yukioka, Velvet Lounge features unique accessories for modern day men. Jewelry has been a strong piece of wearable art that has been passed on from the past, which continues to evolve today. By fusing the past ideals with present day themes, we present a new classic line to mens fashion and jewelry. Velvet Lounge continues to seek new ideas and designs to create a new start to fashion.<p>
 
  <a href="#collection"><img id="arrow2" src="images/arrow.png" alt="arrw"></a>
 
 </section>
 
-<section id="page2">
-  <a id="collection"></a>
+<section id="collection">
   <div class="title">
   <h1>
     <span>COLLECTION</span>
@@ -56,44 +66,43 @@
     <h3>Antoni Gaudi</h3>
     <p>Our new collection "Gaudi" features the talented ideals of Antoni Gaudi. We mixed his beautiful sense of architectural structure and color with Velvet Lounge's unique filters. The accessory designs are inspired by different architectural structures and motifs by Gaudi, as well as fusing the beauty of nature. The style, color, and material are strictly concept-based, featuring Antoni Gaudi from different perspectives. Though the accessories are on a rather smaller scale, they have a strong presence in itself to fit your taste.</p>
 
-    	<ul id="items">
-    		<li><img src="images/1.jpg" alt="1"></li>
-    		<li><img src="images/2.jpg" alt="2"></li>
-    		<li><img src="images/25.jpg" alt="3"></li>
-    		<li><img src="images/3.jpg" alt="4"></li>
-    		<li><img src="images/4.jpg" alt="5"></li>
-    		<li><img src="images/5.jpg" alt="6"></li>
-    		<li><img src="images/6.jpg" alt="7"></li>
-    		<li><img src="images/7.jpg" alt="8"></li>
-    		<li><img src="images/8.jpg" alt="9"></li>
-    		<li><img src="images/9.jpg" alt="10"></li>
-    		<li><img src="images/10.jpg" alt="11"></li>
-    		<li><img src="images/11.jpg" alt="12"></li>
-    		<li><img src="images/12.jpg" alt="13"></li>
-    		<li><img src="images/13.jpg" alt="14"></li>
-    		<li><img src="images/14.jpg" alt="15"></li>
-    		<li><img src="images/16.jpg" alt="16"></li>
+    <ul class="items">
+    		<li id="2"><img src="images/2.jpg" alt="2"></li>
+    		<li id="3"><img src="images/25.jpg" alt="3"></li>
+    		<li id="3"><img src="images/3.jpg" alt="4"></li>
+    		<li id="3"><img src="images/4.jpg" alt="5"></li>
+    		<li id="3"><img src="images/5.jpg" alt="6"></li>
+    		<li id="3"><img src="images/6.jpg" alt="7"></li>
+    		<li id="3"><img src="images/7.jpg" alt="8"></li>
+    		<li id="3"><img src="images/8.jpg" alt="9"></li>
+    		<li id="3"><img src="images/9.jpg" alt="10"></li>
+    		<li id="3"><img src="images/10.jpg" alt="11"></li>
+    		<li id="3"><img src="images/11.jpg" alt="12"></li>
+    		<li id="3"><img src="images/12.jpg" alt="13"></li>
+    		<li id="3"><img src="images/13.jpg" alt="14"></li>
+    		<li id="3"><img src="images/14.jpg" alt="15"></li>
+    		<li id="3"><img src="images/16.jpg" alt="16"></li>
     	</ul>
         <div id="down">
          <a href="#store"><img id="arrow3" src="images/arrow.png" alt="arrw"></a>
      </div>
 </section>
 
-<section id="page3">
-  <a id="store"></a>
+<section id="store">
   <div class="title">
   <h1>
     <span>STORE</span>
     </h1>
 </div>
   <p>Our products can be purchased online or also in 25 select stores located throughout Japan.</p>
+<div id="map"><iframe src="https://mapsengine.google.com/map/embed?mid=zHKk_g2Uarvo.kxVKlCKitOi0" width="640" height="480"></iframe>
+</div>
 
    <a href="#contact"><img id="arrow4" src="images/arrow.png" alt="arrw"></a>
     
 </section>
 
-<section id="page4">
-  <a id="contact"></a>
+<section id="contact">
   <div class="title">
   <h1>
     <span>CONTACT</span>
@@ -106,5 +115,26 @@
     <li><img src="images/fb.png" alt="fb"></li>
 </ul>
 </section>
+<script>
+$(function(){
+    $('.front img:gt(0)').hide();
+    setInterval(function(){
+      $('.front :first-child').fadeOut()
+         .next('img').fadeIn()
+         .end().appendTo('.front');}, 
+      3000);
+});
+
+$(function(){
+    $('.intro img:gt(0)').hide();
+    setInterval(function(){
+      $('.intro :first-child').fadeOut()
+         .next('img').fadeIn()
+         .end().appendTo('.intro');}, 
+      3000);
+});
+
+</script>
+
 
 </body>
