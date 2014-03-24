@@ -132,8 +132,8 @@ section h3{text-align:center;}
 #size{padding-bottom:50px;}
 
 #page1{margin-bottom:120px;}
-#man{width:960px;
-	 height:550px;}
+.intro img{width:960px;
+			height:550px;}
 .intro{ position:relative; top:-50px; width:960px;}
 
 .intro img{width:960px;
