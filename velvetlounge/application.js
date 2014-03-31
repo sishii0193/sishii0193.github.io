@@ -4,7 +4,7 @@ function showProduct(jewel){
 var bot = Jewels[jewel];
 $("#detail-title").text(bot.title);
 	$("#detail-price").text("$" + bot.price);
-	$("#detail-main").attr("src", bot.image);
+	$("#detail-image").attr("src", bot.image);
 	$("#detail-description").text(bot.description);
 }
 
