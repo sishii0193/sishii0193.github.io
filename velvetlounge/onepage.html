@@ -4,8 +4,9 @@
     <title>Velvet Lounge</title>
     <link rel="stylesheet" type='text/css' href="style.css" />
 
-<script type="text/javascript" src="jquery-1.2.6.min.js"></script>
-<script type="text/javascript">
+      <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+  <script src='application.js'></script>
+        <script src='product.js'></script>
 </script>
 </head>
 
@@ -64,25 +65,43 @@
     <img src="images/collection.jpg" alt="collection">
     <h2>"Nothing is invented, for it's written in nature first."</h2>
     <h3>Antoni Gaudi</h3>
-    <p>Our new collection "Gaudi" features the talented ideals of Antoni Gaudi. We mixed his beautiful sense of architectural structure and color with Velvet Lounge's unique filters. The accessory designs are inspired by different architectural structures and motifs by Gaudi, as well as fusing the beauty of nature. The style, color, and material are strictly concept-based, featuring Antoni Gaudi from different perspectives. Though the accessories are on a rather smaller scale, they have a strong presence in itself to fit your taste.</p>
+    <p id='cinfo'>Our new collection "Gaudi" features the talented ideals of Antoni Gaudi. We mixed his beautiful sense of architectural structure and color with Velvet Lounge's unique filters. The accessory designs are inspired by different architectural structures and motifs by Gaudi, as well as fusing the beauty of nature. The style, color, and material are strictly concept-based, featuring Antoni Gaudi from different perspectives. Though the accessories are on a rather smaller scale, they have a strong presence in itself to fit your taste.</p>
 
-    <ul class="items">
-    		<li id="2"><img src="images/ring1.jpg" alt="2"></li>
-    		<li id="3"><img src="images/25.jpg" alt="3"></li>
-    		<li id="4"><img src="images/3.jpg" alt="4"></li>
-    		<li id="5"><img src="images/4.jpg" alt="5"></li>
-    		<li id="6"><img src="images/5.jpg" alt="6"></li>
-    		<li id="7"><img src="images/6.jpg" alt="7"></li>
-    		<li id="8"><img src="images/7.jpg" alt="8"></li>
-    		<li id="9"><img src="images/8.jpg" alt="9"></li>
-    		<li id="10"><img src="images/9.jpg" alt="10"></li>
-    		<li id="11"><img src="images/10.jpg" alt="11"></li>
-    		<li id="12"><img src="images/11.jpg" alt="12"></li>
-    		<li id="13"><img src="images/12.jpg" alt="13"></li>
-    		<li id="14"><img src="images/13.jpg" alt="14"></li>
-    		<li id="15"><img src="images/14.jpg" alt="15"></li>
-    		<li id="16"><img src="images/16.jpg" alt="16"></li>
+    <ul class="products">
+    		<li class='product' data-product-id='ring1'><img src="images/ring1.jpg" alt="2"></li>
+    		<li class='product' data-product-id='ring25'><img src="images/25.jpg" alt="3"></li>
+    		<li class='product' data-product-id='ring3'><img src="images/3.jpg" alt="4"></li>
+    		<li class='product' data-product-id='ring4'><img src="images/4.jpg" alt="5"></li>
+    		<li class='product' data-product-id='ring5'><img src="images/5.jpg" alt="6"></li>
+    		<li class='product' data-product-id='ring6'><img src="images/6.jpg" alt="7"></li>
+    		<li class='product' data-product-id='ring7'><img src="images/7.jpg" alt="8"></li>
+    		<li class='product' data-product-id='ring8'><img src="images/8.jpg" alt="9"></li>
+    		<li class='product' data-product-id='ring9'><img src="images/9.jpg" alt="10"></li>
+    		<li class='product' data-product-id='ring10'><img src="images/10.jpg" alt="11"></li>
+    		<li class='product' data-product-id='ring11'><img src="images/11.jpg" alt="12"></li>
+    		<li class='product' data-product-id='ring12'><img src="images/12.jpg" alt="13"></li>
+    		<li class='product' data-product-id='ring13'><img src="images/13.jpg" alt="14"></li>
+    		<li class='product' data-product-id='ring14'><img src="images/14.jpg" alt="15"></li>
+    		<li class='product' data-product-id='ring15'><img src="images/16.jpg" alt="16"></li>
     	</ul>
+
+      <div class='clear'></div>
+
+      <div class='overlay'></div>
+      <div class='details'>
+        <img alt="Alt title of image" id="detail-main" src="images/ring1.jpg" width="400" height="400"/>
+        <h1 id='detail-title'>Ring</h1>
+        <h2 id='detail-price'>$250.95</h2>
+        <p id='detail-description'>The ring is inspired by the beautiful textures and appearances of Gaudi's architecture, Casa Calvet. The ring is separated into two parts where the larger one examines the window frames from Casa Calvet. The smaller ring represents the exotic and diverse colors from Gaudi's architecture.</p>
+        <h3 id='size'>size</h3>
+          <select id="detail-size">
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+        </select>
+  <h4 id='add-to-cart'>ADD TO CART</h4>
+      </div>
+
         <div id="down">
          <a href="#store"><img id="arrow3" src="images/arrow.png" alt="arrw"></a>
      </div>

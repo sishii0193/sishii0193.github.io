@@ -109,14 +109,14 @@ section h3{text-align:center;}
 
 #yo nav ul li a{text-decoration:none;}
 
-.items{position:relative;
+.products{position:relative;
 		top:30px;
 		left:60px;}
 
-.items ul{padding-left:20px;
+.products ul{padding-left:20px;
 			margin:0 auto;}
-.items li{margin-right:15px;}
-.items li img{width:160px;
+.products li{margin-right:15px;}
+.products li img{width:160px;
 			  height:160px;
 			  margin-left:0px;
 			  margin-right:60px;
@@ -192,7 +192,7 @@ img#main {
 .items img:hover{
     -webkit-filter: grayscale(100%);}
 #about p{line-height:25px;}
-#collection p{line-height:30px;
+#cinfo{line-height:30px;
 				padding-top:25px;
 				font-size:15px;
 				font-weight:lighter;
@@ -248,12 +248,7 @@ article h2{font-size:25px;
 				 	border-bottom:1px solid black;
 				 	margin-bottom:5px;
 }
-article p{font-size:15px;
-				 	width: 300px;
-				 	padding-top:30px;
-				 	padding-bottom:15px;
-				 	line-height:25px;
-}
+
 article h3{font-size:15px;
 				 	width: 300px;
 				 	padding-top:;
@@ -291,3 +286,58 @@ select{padding-bottom:10px;
 		left:50px;}
 #map{position:absolute;
 	 left:150px;}
+.overlay {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background-color:black;
+  opacity:0.5;
+  display:none;
+  
+}
+
+.details {
+  position:fixed;
+  left:0px;
+  right:0px;
+  top:0px;
+  bottom:0px;
+  margin:auto;
+  width:960px;
+  height:500px;
+  background-color:white;
+  padding:20px 50px;
+  border-radius:10px;
+  display:none;
+  
+}
+#details{position:relative;}
+#detail-main{position:absolute;
+			 left:30px;}
+#detail-title{position:absolute;
+				text-align:left;
+				left:550px;
+				top:60px;
+			
+				}
+#detail-price{position:absolute;
+				left:550px;
+				top:80px;
+				text-align:left;
+				width:450px;
+			border-bottom:1px solid black;}
+#detail-description{position:absolute;
+					left:550px;
+					top:160px;
+					text-align:left;
+					width:400px;
+					font-size: 15px;
+					line-height:20px;}
+#size{position:absolute;
+	left:550px;
+	top:270px;}
+#detail-size{position:absolute;
+			 left:550px;
+			 top:350px;}
