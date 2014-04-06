@@ -1,0 +1,16 @@
+need event handler, add that to cart, how to handle the quantity button.
+initialize number to zero.
+total-up how many items are in the cart.
+foreign-loop. Loop over everything. Keeep adding the quantity (multiply the number, )
+two functions: addItem, updateCart (update the information on top right)
+showProduct to click-handler with alert, Call addItem function, update cart, update total function. 
+
+add event handler inside of showproduct function
+we already know the product we're trying to add
+turn event handler off when we close the 
+
+$("detail-quantity").val();
+
+tell which items are added to cart
+
+console.log(cart) logs item to javascript concole
