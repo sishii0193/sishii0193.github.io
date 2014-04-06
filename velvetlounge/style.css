@@ -316,33 +316,43 @@ select{padding-bottom:10px;
   
 }
 #details{position:relative;}
-#detail-main{position:absolute;
-			 left:30px;}
+#detail-image{position:absolute;
+			 left:30px;
+			 top:50px;}
 #detail-title{position:absolute;
 				text-align:left;
 				left:550px;
 				top:60px;
-				font-size:10px;
+				font-size:35px;
 				}
 #detail-price{position:absolute;
 				left:550px;
-				top:80px;
+				top:120px;
 				text-align:left;
 				width:450px;
+				font-size:25px;
 			border-bottom:1px solid black;}
 #detail-description{position:absolute;
 					left:550px;
-					top:160px;
+					top:163px;
 					text-align:left;
 					width:400px;
-					font-size: 15px;
+					font-size: 16px;
 					line-height:20px;}
 #size{position:absolute;
 	left:550px;
-	top:270px;}
+	top:270px;
+	font-size: 20px;}
+#quantity{position:absolute;
+			left:650px;
+			top:270px;
+			font-size:20px;}
 #detail-size{position:absolute;
 			 left:550px;
-			 top:350px;}
+			 top:300px;}
+#detail-quantity{position:absolute;
+				left:650px;
+				top:300px;}
 #cart{position:absolute;
 	left:800px;
 	top:15px;
@@ -364,3 +374,21 @@ opacity: .5;
 
 
 body{background-color:white;}
+
+button{position:absolute;
+		left:650px;
+		top:400px;
+	width:200px;
+		height:50px;
+		background-color:#980000;
+		font-weight:bold;
+		color:white;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;}
+button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background-color:#ce0100;
+button:active {
+	position:relative;
+	top:1px;}

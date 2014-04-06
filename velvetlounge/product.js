@@ -70,5 +70,33 @@ var Jewels={
 		description:"The peace sign is a strong element of peaceful life and freedom. We've added another layer to this symbol by incorporating the iconic Gaudi architecture and his color usage. The pendant top can be reversed to change the looks and feel of the design.",
 	},
 
+ring11:{
+	title:"Structure Skull Pendant",
+	price:220.00,
+	image:"images/11.jpg",
+	description:"A pendant top with a skull motif. The pendant becomes very iconic through the use of multi-colored line stones. We've incorporated a new type of chain in this pendant, which creates a balance between each component.",
+
+},
+
+ring13:{
+title:"Silk Ribbon Bracelet",
+price:90.00,
+image:"images/13.jpg",
+description:"A simple bracelet that we created through the use of silk ribbons, swarovski crystals, and simple stones. This product can be used 2 ways: as a bracelet, or as an anklet.",
+},
+
+ring14:{
+title:"Gold Skull Rubber Bracelet",
+price:60.00,
+image:"images/14.jpg",
+description:"We created a very casual bracelet through the use of coating and coloring. Where this creates a luxurious feel of VELVET LOUNGE, th bracelet can be worn in many different situations and styling.",
+},
+
+ring15:{
+	title:"Silver Cross Rubber Bracelet",
+	price:60.00,
+	images:"images/16.jpg",
+	description:"We created a very casual bracelet through the use of coating and coloring. Where this creates a luxurious feel of VELVET LOUNGE, th bracelet can be worn in many different situations and styling.",
+},
 
 };
