@@ -78,6 +78,14 @@ ring11:{
 
 },
 
+ring12:{
+	title:"Trencadis heart pendant",
+	price:240.00,
+	image:"images/12.jpg",
+	description:"Trencadis is a term used for Gaudi's style of tyling artworks. The mosaics are created through shells, in order to bring a sense of luxury. The shells are customly carved by master craftsmen.",
+
+},
+
 ring13:{
 title:"Silk Ribbon Bracelet",
 price:90.00,
@@ -97,6 +105,5 @@ ring15:{
 	price:60.00,
 	images:"images/16.jpg",
 	description:"We created a very casual bracelet through the use of coating and coloring. Where this creates a luxurious feel of VELVET LOUNGE, th bracelet can be worn in many different situations and styling.",
-},
-
+}
 };
