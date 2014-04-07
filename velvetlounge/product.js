@@ -8,10 +8,10 @@ var Jewels={
 	},
 
 	ring25:{
-		title:"Ring 2",
-		price: 200.90,
+		title:"Smooth Ring",
+		price: 280.00,
 		image: "images/25.jpg",
-		description:"ring detail",
+		description:"A two part ring which creates the different textures of Gaudi's architecture. ",
 	},
 
 	ring3:{
@@ -103,7 +103,7 @@ description:"We created a very casual bracelet through the use of coating and co
 ring15:{
 	title:"Silver Cross Rubber Bracelet",
 	price:60.00,
-	images:"images/16.jpg",
+	images:"images/15.jpg",
 	description:"We created a very casual bracelet through the use of coating and coloring. Where this creates a luxurious feel of VELVET LOUNGE, th bracelet can be worn in many different situations and styling.",
 }
 };

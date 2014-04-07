@@ -36,7 +36,7 @@ function checkOut() {
 
   var handler = StripeCheckout.configure({
     key: stripeKey,
-    image: 'http://shop-example.herokuapp.com/images/bird_bot.png',
+    image: 'http://image.rakuten.co.jp/chromeworld/cabinet/vl/vl-logo.jpg',
     token: function(token, args) {
     }
   });
@@ -61,7 +61,7 @@ function updateCart(){
 		var itemPrice = bot.price*quantity;
 		total += itemPrice;
 	}
-	$("#cart").text("Total Cost" + ":" + " " + "$" + total)
+	$("#cart").text("Cart" + "($" + total.toFixed(2) + ")");
 }
 
 

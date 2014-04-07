@@ -88,7 +88,6 @@ section h2{text-align:center;
 	font-weight:bold;
 	margin-top:20px;
 	}
-section h3{text-align:center;}
 
 #header{padding-bottom:100px;
 		text-align:center;
@@ -175,7 +174,7 @@ padding-bottom:120px;}
 		height:50px;
 		margin:0 auto;
 	position:absolute;
-	left:450px; top:670px;}
+	left:450px; top:750px;}
 .title{border-bottom:1px solid black;
 		margin-bottom:87px;
 		}
@@ -200,10 +199,14 @@ img#main {
 				font-weight:lighter;
 				width:900px;}
 #collection h3{line-height:30px;
-				padding-top:25px;
-				font-size:25px;
+				padding-top:10px;
+				padding-bottom:10px;
+				font-size:15px;
 				font-weight:lighter;
-				margin:0 auto;}
+				margin:0 auto;
+				text-align: center;
+				text-transform:uppercase;
+				letter-spacing: 2px;}
 #haha{
 	display: none;
 	margin: 0 10px;
@@ -353,11 +356,7 @@ select{padding-bottom:10px;
 #detail-quantity{position:absolute;
 				left:650px;
 				top:300px;}
-#cart{position:absolute;
-	left:800px;
-	top:15px;
-	width:150px;}
-#cost{float:left;}
+
 
 .product img {
 opacity: 1;
@@ -392,3 +391,5 @@ button:hover {
 button:active {
 	position:relative;
 	top:1px;}
+#cart{text-transform: uppercase;
+	font-weight:bold;}
