@@ -393,3 +393,9 @@ button:active {
 	top:1px;}
 #cart{text-transform: uppercase;
 	font-weight:bold;}
+h1 a{display:block;	
+     text-indent:-9999px;    
+     position:relative;
+  	 background:url(images/logo.png) no-repeat left top;
+	 }
+#cart{cursor:pointer;}
