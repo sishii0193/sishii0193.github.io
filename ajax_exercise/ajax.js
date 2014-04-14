@@ -12,7 +12,8 @@ function showProduct(){
       $("#shots").append(img);
 
       img.on("click",function() {
-
+ var img = $("<img>").attr("src",shot.image_teaser_url);
+        $("#pics").empty().append(img);
        var title = $("<div>").text(shot.title);
         $("#detail").empty().append(title);
         var name=$("<div>").text(shot.player.name);
