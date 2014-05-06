@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>bubble chart test</title>
+<link rel="stylesheet" href="css/main.css">
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="data/secondary_tags.js"></script>
+</head>
+
+<body>
+    <h1>The trends in Music</h1>
+<div id="myGraph"></div>
+<div id="myGraph2"></div>
+<script>
+var list2011 = { 
+    "children": [
+        
+    ]
+};
+
+var list2012 = { 
+    "children": [
+       
+    ]
+};
+
+for(var i = 0; i<data["2011"].length;i++){
+var item= {name:data["2011"][i][0],
+			value:data["2011"][i][1]
+			};
+
+	list2011.children.push(item)
+}
+
+for(var i = 0; i<data["2012"].length;i++){
+var item= {name:data["2012"][i][0],
+            value:data["2012"][i][1]
+            };
+
+    list2012.children.push(item)
+}
+
+
+var svgWidth = 920; // SVG領域の横幅
+var svgHeight = 740;    // SVG領域の縦幅
+var diameter = 900; // 一番大きい円のサイズ
+var color = ["black", "red", "blue", "orange", "purple", "green", "cyan", "gray", "#ff8080", "#a0ff80", "#4090ff"];
+var svg = d3.select("#myGraph").append("svg")
+    .attr("width", svgWidth).attr("height", svgHeight)
+
+var bubble = d3.layout.pack()
+    .size([diameter, diameter]) // 表示サイズを指定
+    .padding(10)    // 円と円の間の余白を指定
+svg.selectAll("circle") // 円を対象にする
+    .data(bubble.nodes(list2011))  
+    .enter()
+
+    .append("circle")   // 円を生成する
+    .attr("r", function(d){ // 円を指定した半径にする
+        return d.r;
+    })
+    .attr("transform", function(d) {    // 円のX,Y座標を設定
+        return "translate(" + d.x + "," + d.y + ")";
+    })
+    .attr("fill", function(d,i){
+        return color[i];
+    })
+
+var text = svg.selectAll("text.name")
+                     .data(item)
+                     .enter()
+                      .append("text")
+                      .attr("x", function(d){return [i][0]})
+                      .attr("fill", "red");
+
+
+</script>
+<script></script>
+
+</body>
+</html>
